@@ -6,7 +6,11 @@
     "dev": "bun run --watch src/index.ts"
   },
   "dependencies": {
-    "elysia": "latest"
+    "axios": "^1.5.1",
+    "elysia": "latest",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6",
+    "weather-js": "^2.0.0"
   },
   "devDependencies": {
     "bun-types": "latest"
